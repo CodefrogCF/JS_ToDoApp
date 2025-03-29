@@ -14,7 +14,7 @@ function frog() {
 function newElement() {
     var li = document.createElement("li");
     var inputValue = document.getElementById("task-input").value;
-    var t = document.createTextNode(inputValue);
+    var t = document.createTextNode(inputValue + "");
     li.appendChild(t);
     if (inputValue === '') {
         alert("You must write something!");
