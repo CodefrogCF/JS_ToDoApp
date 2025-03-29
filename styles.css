@@ -1,0 +1,56 @@
+html {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(88,88,88);
+    width: 100vw;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(88,88,88);
+    width: 75vw;
+    margin-top: 5rem;
+    min-height: 80vh;
+}
+
+.card-header {
+    display: flex;
+}
+
+.card-body {
+    display: flex;
+}
+
+.card-footer {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(88,88,88);
+    width: 100vw;
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
