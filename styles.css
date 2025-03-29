@@ -47,7 +47,7 @@ ul li.checked {
 ul li.checked::before {
     content: '';
     position: absolute;
-    border-color: #fff;
+    border-color: #111;
     border-style: solid;
     border-width: 0 2px 2px 0;
     top: 10px;
@@ -55,6 +55,10 @@ ul li.checked::before {
     transform: rotate(45deg);
     height: 15px;
     width: 7px;
+}
+
+.checked {
+    text-decoration: line-through;
 }
 
 .close {
@@ -108,10 +112,6 @@ textarea:focus, input:focus{
 
 .clear-button:hover {
     background-color: #1a7e2e;
-}
-
-.checked {
-    text-decoration: line-through;
 }
 
 .header {
