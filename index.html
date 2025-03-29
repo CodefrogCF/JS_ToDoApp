@@ -17,17 +17,19 @@
             <h1>ToDoApp</h1>
         </div>
         <div class="card-body">
-            <input type="text" placeholder="What do you want to do?">
-            <button>Add</button>
+            <input type="text" id="task-input" placeholder="What do you want to do?">
+            <button class="add-button" onclick="addTodo()">Add</button>
+        </div>
+        <div class="card-body">
+            <ul>
+            </ul>
         </div>
         <div class="card-footer">
-            <button>Clear</button>
-            <button>Delete</button>
+            <button class="clear-button" onclick="clearList()">Clear</button>
         </div>
-        <button onclick="test()">Frog</button>
     </div>
     <div class="footer">
-        <img src="./assets/images/logo_black_transparent_ergebnis.webp" width="200px">
+        <img src="./assets/images/logo_black_transparent_ergebnis.webp" width="200px" onclick="frog()">
     </div>
 </body>
 <footer>
