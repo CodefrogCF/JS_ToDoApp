@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>CF-ToDoApp</title>
     <link rel="stylesheet" href="styles.css">
-    <!--<link rel="icon" href="./assets/favicon.ico">-->
+    <link rel="icon" href="./assets/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -18,14 +18,14 @@
         </div>
         <div class="card-input">
             <input type="text" id="task-input" placeholder="What do you want to do?">
-            <button class="add-button" onclick="addTodo()">Add</button>
+            <button class="add-button" onclick="newElement()">Add</button>
         </div>
         <div class="card-body">
-            <ul>
+            <ul id="task-list">
             </ul>
         </div>
         <div class="card-footer">
-            <button class="clear-button" onclick="clearList()">Clear</button>
+            <button class="clear-button" onclick="clearList()">Clear List</button>
         </div>
     </div>
     <div class="footer">
