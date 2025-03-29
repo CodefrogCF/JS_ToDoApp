@@ -76,7 +76,6 @@ textarea:focus, input:focus{
     flex-direction: column;
     background-color: rgb(88,88,88);
     width: 50vw;
-    padding: 2rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
     min-height: 74vh;
@@ -86,6 +85,13 @@ textarea:focus, input:focus{
 .card-header {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
+}
+
+.card-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .card-body {
